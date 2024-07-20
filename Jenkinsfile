@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'nodejs' // Make sure this matches the name you configured in Jenkins
+        nodejs 'NodeJS 22.4.0' // Use the exact name of the Node.js installation
     }
     stages {
         stage('Build') { 
